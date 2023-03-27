@@ -19,7 +19,7 @@ No installation is necessary to view this portfolio.
 <br>
 
 ## Usage
-Check me out at&emsp;https://jk377y.dev&emsp;or&emsp;https://jk377y.com
+Check me out at &emsp; https://jk377y.dev &emsp; or &emsp; https://jk377y.com
 <br>
 View the repository code @ https://github.com/jk377y/myReactPortfolio
 <br>
