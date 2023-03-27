@@ -181,3 +181,37 @@ header {
 	max-width: 500px;
 }
 
+/*! Nav Components */
+.navContainer {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
+.navBar {
+	position: fixed;
+	bottom: 1rem;
+	width: 300px;
+	height: 60px;
+	background: var(--darkWindow);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 1rem;
+	z-index: 100;
+	border: 1px solid var(--green);
+	box-shadow: 0px 0px 10px 2px var(--green);
+	border-radius: 2rem;
+}
+.navIcons {
+	color: var(--green);
+	font-size: 1.5rem;
+}
+.navIcons:hover {
+	font-size: 2rem;
+	color: var(--blue);
+}
+.selected {
+	color: var(--yellow);
+	font-size: 2rem;
+}
+
