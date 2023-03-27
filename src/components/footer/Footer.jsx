@@ -2,8 +2,6 @@ import React from "react";
 import { ReactComponent as LinkedinIcon } from '../../assets/images/icons/linkedIn.svg';
 import { ReactComponent as GitHubIcon } from '../../assets/images/icons/github2.svg';
 import { ReactComponent as LeetCodeIcon } from '../../assets/images/icons/leetCode.svg';
-import { ReactComponent as ViteIcon } from '../../assets/images/icons/vite.svg';
-import { ReactComponent as JWTIcon } from '../../assets/images/icons/jwt.svg';
 
 const Footer = () => {
 	return (
@@ -35,10 +33,9 @@ const Footer = () => {
 				<a href="https://getbootstrap.com/" alt="Bootstrap" title="Bootstrap" target="_blank" rel="noreferrer">
 					<img src="https://camo.githubusercontent.com/bec2c92468d081617cb3145a8f3d8103e268bca400f6169c3a68dc66e05c971e/68747470733a2f2f76352e676574626f6f7473747261702e636f6d2f646f63732f352e302f6173736574732f6272616e642f626f6f7473747261702d6c6f676f2d736861646f772e706e67" alt="Bootstrap" title="Bootstrap" width="64" height="64"/></a>
 				<a href="https://vitejs.dev/" alt="Vite" title="Vite" target="_blank" rel="noreferrer">
-					<ViteIcon className="icon" /></a>
-				<a href="https://jwt.io/" target="_blank" rel="noreferrer">
-					<JWTIcon className="icon" /></a>
+          			<img src="https://cdn.worldvectorlogo.com/logos/vitejs.svg" alt="Vite" title="Vite" width="64" height="64"/></a>
 			</div>
+
 			{/* when not using image tags, the svg files had to be imported from a local directory, i just did this for the practice of importing and to use for reference later */}
 			<div className="contactIcons">
 				<a href="https://www.linkedin.com/in/james-kelly-b93a94150/" title="LinkedIn Profile" target="_blank" rel="noreferrer">
