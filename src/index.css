@@ -304,3 +304,65 @@ span.swiper-pagination-bullet {
 .swiper-slide-shadow-left {
 	opacity: 0 !important;
 }
+
+/*! Contact Component */
+section#contact {
+	margin-top: 10rem;
+	height: 100vh;
+}
+.contactFormDiv {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 8rem;
+	gap: 1rem;
+}
+.userInput,
+.emailInput {
+	text-align: center;
+	font-size: 18px;
+	width: 90%;
+	height: 20px;
+	padding: 1rem;
+	border-radius: 1rem;
+	border: 5px inset var(--green);
+	max-width: 500px;
+	color: var(--dark);
+}
+.messageInput {
+	font-size: 18px;
+	width: 90%;
+	height: 200px;
+	padding: 0.8rem;
+	border-radius: 1rem;
+	border-radius: 1rem;
+	border: 5px inset var(--green);
+	max-width: 500px;
+}
+.required {
+	color: var(--yellow);
+	font-size: 12px;
+}
+.error {
+	color: var(--white);
+	font-size: 12px;
+	max-width: 500px;
+	background-color: var(--red);
+	border: 1px solid var(--dark);
+	border-radius: 1rem;
+	padding: 0.5rem;
+}
+
+/*! Resume Component */
+section#resume {
+	margin-top: 10rem;
+	height: 20vh;
+}
+.resume {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 2rem;
+}
+
