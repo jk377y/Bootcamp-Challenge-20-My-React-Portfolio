@@ -5,6 +5,7 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { EffectCoverflow, Pagination, Navigation } from 'swiper';
+import projectImage_0 from '../../assets/images/projectImages/roboticRenaissance.JPG'
 import projectImage_1 from '../../assets/images/projectImages/f4t.JPG'
 import projectImage_2 from '../../assets/images/projectImages/lol_db.JPG'
 import projectImage_3 from '../../assets/images/projectImages/hopeIsLostEcom.JPG'
@@ -43,6 +44,18 @@ const Slideshow = () =>
                 modules= { [ EffectCoverflow, Pagination, Navigation ] }
                 className='swiper_container'>
                 {/* Carousel slides */}
+                <SwiperSlide>
+                    <div className="projFrame">
+                        <div className="projWindow">
+                            <img className='slides' src={ projectImage_0 } alt="Robotic RenAIssance" title='Robotic RenAIssance' />
+                            <i className="slideTitle slideTitle0">Robotic RenAIssance</i>
+                        </div>  
+                        <div className="projBtns">
+                            <a href='https://robotic-renaissance.herokuapp.com/' target='_blank' rel="noreferrer" className='btn'>Demo</a>
+                            <a href='https://github.com/jk377y/Robotic_RenAIssance' target='_blank' rel="noreferrer" className='btn'>Repo</a>
+                        </div>
+                    </div>
+                </SwiperSlide>
                 <SwiperSlide>
                     <div className="projFrame">
                         <div className="projWindow">
