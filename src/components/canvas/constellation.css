@@ -18,8 +18,10 @@
     border: 1px solid #ccc;
     padding: 20px;
     z-index: 22;
+}
+.popup p {
+    font-size: 20px;
     text-align: center;
-    font-size: 18px;
 }
 .overlay {
     position: fixed;
