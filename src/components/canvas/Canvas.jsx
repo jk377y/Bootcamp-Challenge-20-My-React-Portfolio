@@ -114,9 +114,9 @@ function Canvas() {
 			<canvas id="canvas1" ref={canvasRef}></canvas>
 			<div id="overlay" className="overlay" ref={overlayRef}></div>
 			<div id="popup" className="popup" ref={popupRef}>
-				<p>Click to remove the overlay.</p>
-				<p>Click the background to stop animations.</p>
-				<p>Refresh the page to restart the animations.</p>
+				<p>Click to view the page.</p>
+				<p>Click again to stop animations.</p>
+				<p>Reload to restart the animations.</p>
 				<p>I hope you enjoy.  Thanks for visiting.</p>
 			</div>
 		</>
