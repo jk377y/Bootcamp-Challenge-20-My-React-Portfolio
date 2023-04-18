@@ -5,10 +5,12 @@ import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
 import Resume from "./components/resume/Resume";
 import Footer from "./components/footer/Footer";
+import Canvas from "./components/canvas/Canvas";
 
 const App = () => {
 	return (
 		<>
+			<Canvas />
 			<Nav />
 			<Header />
 			<Projects />

@@ -1,0 +1,35 @@
+/* ===== CANVAS Setting ===== */
+#canvas1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0);
+    width: 100vw;
+    height: 100vh;
+    z-index: 20;
+}
+.popup {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--black);
+    color:hsl(165, 100%, 50%);
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 22;
+    text-align: center;
+    font-size: 18px;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(36, 36, 36, 0.836);
+    z-index: 21; /* higher than popup */
+}
+.hide {
+    display: none !important;
+}

@@ -75,8 +75,8 @@ const Slideshow = () =>
                             <i className="slideTitle slideTitle2">League of Legends</i>
                         </div>
                         <div className="projBtns">
-                            <a href='https://lol-db.herokuapp.com/' target='_blank' rel="noreferrer" className='btn'>Demo</a>
-                            <a href='https://github.com/jk377y/LOLdb' target='_blank' rel="noreferrer" className='btn'>Repo</a>
+                            <a href='https://lol-mern.herokuapp.com//' target='_blank' rel="noreferrer" className='btn'>Demo</a>
+                            <a href='https://github.com/jk377y/leagueOfLegendsMERN' target='_blank' rel="noreferrer" className='btn'>Repo</a>
                         </div>
                     </div>
                 </SwiperSlide>
